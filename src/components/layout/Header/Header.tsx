@@ -37,19 +37,19 @@ export function Header() {
           </li>
 
           <li>
-            <a href="#servicos">Serviços</a>
+            <a href="#services">Serviços</a>
           </li>
 
           <li>
-            <a href="#galeria">Galeria</a>
+            <a href="#gallery">Galeria</a>
           </li>
 
           <li>
-            <a href="#sobre">Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
 
           <li>
-            <a href="#contato">Contato</a>
+            <a href="#contact">Contato</a>
           </li>
         </ul>
         <div className="flex items-center gap-2">
@@ -148,7 +148,7 @@ export function Header() {
 
                 <li className="border-b border-gray-700 py-4">
                   <a
-                    href="#servicos"
+                    href="#services"
                     onClick={closeMenu}
                     className="flex items-center gap-4"
                   >
@@ -159,7 +159,7 @@ export function Header() {
 
                 <li className="border-b border-gray-700 py-4">
                   <a
-                    href="#galeria"
+                    href="#gallery"
                     onClick={closeMenu}
                     className="flex items-center gap-4"
                   >
@@ -170,7 +170,7 @@ export function Header() {
 
                 <li className="border-b border-gray-700 py-4">
                   <a
-                    href="#sobre"
+                    href="#about"
                     onClick={closeMenu}
                     className="flex items-center gap-4"
                   >
@@ -181,7 +181,7 @@ export function Header() {
 
                 <li className="border-b border-gray-700 py-4">
                   <a
-                    href="#contato"
+                    href="#contact"
                     onClick={closeMenu}
                     className="flex items-center gap-4"
                   >

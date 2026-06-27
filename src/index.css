@@ -16,7 +16,9 @@
   --color-text: #000000;
   --color-surface: #ffffff;
 } */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--color-surface);
   font-size: 1rem;

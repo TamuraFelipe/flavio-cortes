@@ -8,7 +8,7 @@ import borrifadorIcon from "../../../assets/borrifador-icon.png";
 export function Hero() {
   return (
     <div
-      id="hero"
+      id="home"
       className="
             relative
             bg-black

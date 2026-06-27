@@ -4,7 +4,7 @@ import { Container } from "../Container";
 
 export default function About() {
   return (
-    <section id="sobre">
+    <section id="about">
       <Container>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img

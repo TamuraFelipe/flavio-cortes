@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <Container>
       <div>
-        <p>&copy; 2023 Flavio Cortes</p>
+        <p className="text-center p-10">&copy; 2026 Flavio Cortes</p>
       </div>
     </Container>
   );
