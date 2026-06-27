@@ -46,25 +46,22 @@ export default function About() {
             </p>
             <div className="flex items-center justify-between lg:justify-start lg:gap-10">
               <div className="flex flex-col gap-2 items-center">
-                <StarIcon className="text-brand w-6 h-6 lg:w-10 lg:h-10" />
-                <span className="text-center text-xs lg:text-base">
+                <StarIcon className="text-brand w-10 h-10 stroke-1" />
+                <span className="text-center">
                   Atendimento <br /> Personalizado
                 </span>
               </div>
               <div className="flex flex-col gap-2 items-center">
                 <ClockIcon
                   size={40}
-                  className="text-brand w-6 h-6 lg:w-10 lg:h-10"
+                  className="text-brand w-10 h-10 stroke-1"
                 />
                 <span className="text-center">
                   Pontualidade e <br /> Compromisso
                 </span>
               </div>
               <div className="flex flex-col gap-2 items-center">
-                <GemIcon
-                  size={40}
-                  className="text-brand w-6 h-6 lg:w-10 lg:h-10"
-                />
+                <GemIcon size={40} className="text-brand w-10 h-10 stroke-1" />
                 <span className="text-center">
                   Foco em <br /> Qualidade
                 </span>
