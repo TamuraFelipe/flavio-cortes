@@ -4,27 +4,27 @@
     "service": "Corte Masculino",
     "description": "Cortes modernos e personalizados para o seu estilo.",
     "price": "R$45,00",
-    "imgUrl": "/public/images/services_02.png"
+    "imgUrl": "/images/services_02.png"
   },
   {
     "id": 2,
     "service": "Barba",
     "description": "Acabamento e desenho profissional.",
     "price": "R$35,00",
-    "imgUrl": "/public/images/services_02.png"
+    "imgUrl": "/images/services_02.png"
   },
   {
     "id": 3,
     "service": "Corte + Barba",
     "description": "O combo completo para um visual impecável.",
     "price": "R$70,00",
-    "imgUrl": "/public/images/services_02.png"
+    "imgUrl": "/images/services_02.png"
   },
   {
     "id": 4,
     "service": "Pigmentação Capilar",
     "description": "Mais preenchimento e definição para o seu cabelo.",
     "price": "R$80,00",
-    "imgUrl": "/public/images/services_02.png"
+    "imgUrl": "/images/services_02.png"
   }
 ]
