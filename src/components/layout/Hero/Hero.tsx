@@ -5,7 +5,7 @@ import tesouraIcon from "../../../assets/tesoura-icon.png";
 import barbaIcon from "../../../assets/barba-icon.png";
 import borrifadorIcon from "../../../assets/borrifador-icon.png";
 
-export default function Hero() {
+export function Hero() {
   return (
     <div
       id="hero"
@@ -16,7 +16,7 @@ export default function Hero() {
             md:bg-[url('/src/assets/hero.png')]
             md:bg-contain
             md:bg-right
-            lg:bg-position-[50vw]
+            lg:bg-position-[45vw]
             md:bg-no-repeat
 
             py-6

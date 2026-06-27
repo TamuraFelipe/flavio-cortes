@@ -1,4 +1,5 @@
-import Hero from "../components/layout/Hero/Hero";
+import About from "../components/layout/About/About";
+import { Hero } from "../components/layout/Hero/Hero";
 import { MainLayout } from "../components/layout/MainLayout";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <MainLayout>
         <Hero />
+        <About />
       </MainLayout>
     </>
   );
