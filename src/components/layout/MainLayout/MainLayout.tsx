@@ -8,7 +8,7 @@ interface MainLayoutProps {
 
 export function MainLayout({ children }: MainLayoutProps): JSX.Element {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen w-screen overflow-auto">
       <Header />
 
       <main className="space-y-8">{children}</main>
