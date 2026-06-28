@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "/images/services_01.png",
+    "alt": "Corte masculino"
+  },
+  {
+    "id": 2,
+    "imgUrl": "/images/services_01.png",
+    "alt": "Corte masculino"
+  },
+  {
+    "id": 3,
+    "imgUrl": "/images/services_01.png",
+    "alt": "Corte masculino"
+  },
+  {
+    "id": 4,
+    "imgUrl": "/images/services_01.png",
+    "alt": "Corte masculino"
+  },
+  {
+    "id": 5,
+    "imgUrl": "/images/services_01.png",
+    "alt": "Corte masculino"
+  }
+]

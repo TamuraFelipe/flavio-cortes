@@ -16,22 +16,33 @@
   --color-text: #000000;
   --color-surface: #ffffff;
 } */
-html {
-  scroll-behavior: smooth;
+@layer base {
+  html {
+    scroll-behavior: smooth !important;
+  }
+  body {
+    background-color: var(--color-surface);
+    font-size: 1rem;
+    color: var(--color-text);
+    font-family: Inter;
+  }
+  h1 {
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: 0.05em;
+  }
+  button {
+    cursor: pointer;
+  }
 }
-body {
-  background-color: var(--color-surface);
-  font-size: 1rem;
-  color: var(--color-text);
-  font-family: Inter;
-}
-h1 {
-  font-family: Oswald;
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 1.1;
-  letter-spacing: 0.05em;
-}
-button {
-  cursor: pointer;
+
+@layer components {
+  .about-skills {
+    @apply flex flex-col gap-2 items-center;
+  }
+  .about-skills__icons {
+    @apply text-brand w-10 h-10 stroke-1;
+  }
 }
